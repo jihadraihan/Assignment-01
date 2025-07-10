@@ -1,5 +1,5 @@
 header{
-    background-image: url(/image/Hero-bg.png);
+    background-image: url(../image/Hero-bg.png);
     height: 550px;
     margin: 0px;
 }
@@ -104,4 +104,27 @@ nav button{
 img{
     border-radius: 15%;
     height: 260px;
+}
+.users-heading{
+    margin:90px 120px;
+    padding: 20px 30px;
+}
+.users-section{
+    text-align: center;
+}
+.section-data{
+    display: flex;
+    justify-content: center;
+
+}
+footer h1{
+    color: #4E47FF;
+    height: 90px;
+    width: 160px;
+    border: none;
+    border-radius: 8px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900,bold;
+    font-style: normal;
 }
