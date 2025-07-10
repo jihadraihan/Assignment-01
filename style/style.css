@@ -37,7 +37,7 @@ nav button{
     font-variation-settings:
         "wdth" 100;
 }
-div button{
+.banner button{
     background-color: #4E47FF;
     color: white;
     height: 38px;
@@ -54,14 +54,54 @@ div button{
     margin-top: 170px;
 }
 .banner h1{
-    font-size: 40px;
-    height: 100px;
-    width: 600px;
+    color: #252432;
+    font-size: 50px;
+    height: 110px;
+    width: 620px;
     margin-left: 25%;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400, bold;
+    font-weight: 800, bold;
+    font-style: normal;  
+}
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    margin:90px 120px;
+    padding: 20px 30px;
+}
+.action-btn{
+    background-color: #4E47FF;
+    color: white;
+    height: 38px;
+    width: 160px;
+    border: none;
+    border-radius: 8px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
     font-style: normal;
-
-    
+}
+.action-h1{
+    font-size: 40px;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700, bold;
+    font-style: normal;
+}
+.action-p{
+    height: 60px;
+    width: 420px;
+    font-size: 22px;
+    color: #2524327c;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.action-description{
+    width: 300px;
+}
+img{
+    border-radius: 15%;
+    height: 260px;
 }
