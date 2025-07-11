@@ -1,5 +1,5 @@
 header{
-    background-image: url(../image/Hero-bg.png);
+    background-image: url("../image/Hero-bg.png");
     height: 550px;
     margin: 0px;
 }
@@ -101,7 +101,7 @@ nav button{
 .action-description{
     width: 300px;
 }
-img{
+.action-img img{
     border-radius: 15%;
     height: 260px;
 }
@@ -173,3 +173,11 @@ footer p{
     margin-left: 28%;
     color: #8987A1;
 }
+
+.touch-section{
+    
+    justify-content: space-between;
+    margin:90px 120px;
+    padding: 20px 30px;
+}
+
